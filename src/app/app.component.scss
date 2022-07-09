@@ -1,0 +1,338 @@
+@media only screen and (min-width: 913px) {
+header {
+  padding: 12px 0;
+  background: #FDFCF5;
+}
+.logo {
+  position: absolute;
+  width: 150px;
+  height: 20px;
+  left: 16px;
+  top: 18px;
+  background: url("https://imgur.com/VGmVF37.png");
+  background-size: contain;
+  }
+.menu {
+  margin-top: 5px;
+  z-index: 1;
+}
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+.menu ul li {
+  list-style-type: none;
+  color: #000000;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 24px;
+  font-family: Nunito Sans;
+  font-style: normal;
+
+}
+.menu ul li:hover {
+  color: blueviolet;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.firstPlane {
+  width: 100vw;
+  height: 50.8vw;
+  background: url("https://imgur.com/jJ1MHyl.png");
+  background-size: contain;
+  z-index: 0;
+}
+.firstPlane div {
+  padding: 18% 0px 0px 6%;
+  width: 40%;
+}
+.firstPlane div h1{
+  font-family: 'Saol Standard';
+  font-style: normal;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.firstPlane div p{
+  color: #FFFFFF;
+}
+.firstPlane div button{
+  color: black;
+  font-weight: bold;
+  font-size: 1.33vw;
+  background-color: #D6EFA4;
+  border: 0;
+  border-radius: 1vw;
+  width: 20vw;
+  height: 4vw;
+}
+
+.secondPlane {
+  width: 100vw;
+  height: 37.222vw;
+  background-color: #EEAA7F;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.secondPlane img {
+  width: 7.077vw;
+  margin: 2.9vw 0px 0px;
+  //margin-top: 17.708vw;
+}
+.secondPlane h1 {
+  font-size: 2.78vw;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 1vw;
+}
+.secondPlane h2 {
+  font-size: 1.67vw;
+  font-weight: 500;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 3vw;
+}
+.secondPlane p {
+  font-size: 1.67vw;
+  font-family: monospace;
+  width: 54.16vw;
+  text-align: center;
+  margin-top: 2vw;
+  text-transform: uppercase;
+}
+}
+
+//---------------------------------------------------------------------
+
+
+@media only screen and (min-width: 415px) and (max-width:912px) {
+  header {
+    padding: 12px 0;
+    background: #FDFCF5;
+  }
+  .logo {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 16px;
+    top: 18px;
+    background: url("https://imgur.com/VGmVF37.png");
+    background-size: contain;
+    }
+  .menu {
+    margin-top: 5px;
+    z-index: 1;
+    width: 60vw;
+  }
+  .menu ul {
+    padding: 0;
+    margin: 0;
+  }
+  .menu ul li {
+    list-style-type: none;
+    color: #000000;
+    display: inline-block;
+    font-size: 2vw;
+    margin-left: 1.5vw;
+    font-family: Nunito Sans;
+    font-style: normal;
+  }
+  .firstPlane{
+    display: flex;
+    align-items: flex-end;
+    width: 100vw;
+    height: 184.615vw;
+    background: url("https://imgur.com/rYFFGSL.png");
+    background-size: 100%;
+  }
+  .firstPlane div {
+    padding: 0;
+    margin: 0 3% 5% 3%;
+  }
+  .firstPlane div h1{
+    font-family: 'Saol Standard';
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 16vw;
+    line-height: 14vw;
+  }
+  .firstPlane div p{
+    color: #FFFFFF;
+    font-size: 5vw;
+  }
+  .firstPlane div button{
+    color: black;
+    font-weight: bold;
+    font-size: 4vw;
+    background-color: #D6EFA4;
+    border: 0;
+    border-radius: 1vw;
+    width: 60vw;
+    height: 12vw;
+  }
+
+  .secondPlane {
+    width: 100vw;
+    height: 149.7435vw;
+    background-color: #EEAA7F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .secondPlane img {
+    width: 26vw;
+    margin: 13vw 0px 0px;
+    //margin-top: 17.708vw;
+  }
+  .secondPlane h1 {
+    font-size: 7.8vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 6.9vw;
+  }
+  .secondPlane h2 {
+    font-size: 5.13vw;
+    font-family: monospace;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 6.9vw;
+    margin-top: 5vw;
+  }
+  .secondPlane p {
+    font-size: 4.6vw;
+    width: 90vw;
+    text-align: center;
+    margin-top: 6vw;
+  }
+}
+
+
+
+//---------------------------------------------------------------------------
+
+@media only screen and (max-width: 414px) {
+  header {
+    padding: 12px 0;
+    background: #FDFCF5;
+  }
+  .logo {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 16px;
+    top: 18px;
+    background: url("https://imgur.com/VGmVF37.png");
+    background-size: contain;
+    }
+  .menu{
+    position: fixed;
+    right: -280px;
+    top: 42px;
+    width: 280px;
+    transition: 0.4s ease-in-out;
+    z-index: 1;
+  }
+  .menu ul li {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 10px 0 10px 26px;
+    border: 1px solid black;
+    background-color: #FDFCF5;
+  }
+  .menu_icon {
+    display: inline-block;
+    position: relative;
+    right: 0;
+    top: 4px;
+  }
+  .menu_icon span{
+    width: 32px;
+    height: 3px;
+    background: black;
+    display: block;
+  }
+  .menu_icon span:nth-child(2){
+    margin: 4px 0;
+  }
+  .menuClass {
+    right: 0;
+    transition: 0.4s ease-in-out;
+  }
+  .firstPlane{
+    display: flex;
+    align-items: flex-end;
+    width: 100vw;
+    height: 184.615vw;
+    background: url("https://imgur.com/rYFFGSL.png");
+    background-size: 100%;
+  }
+  .firstPlane div {
+    padding: 0;
+    margin: 0 3% 5% 3%;
+  }
+  .firstPlane div h1{
+    font-family: 'Saol Standard';
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 16vw;
+    line-height: 14vw;
+  }
+  .firstPlane div p{
+    color: #FFFFFF;
+    font-size: 5vw;
+  }
+  .firstPlane div button{
+    color: black;
+    font-weight: bold;
+    font-size: 4vw;
+    background-color: #D6EFA4;
+    border: 0;
+    border-radius: 1vw;
+    width: 60vw;
+    height: 12vw;
+  }
+
+  .secondPlane {
+    width: 100vw;
+    height: 149.7435vw;
+    background-color: #EEAA7F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .secondPlane img {
+    width: 26vw;
+    margin: 13vw 0px 0px;
+    //margin-top: 17.708vw;
+  }
+  .secondPlane h1 {
+    font-size: 7.8vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 6.9vw;
+  }
+  .secondPlane h2 {
+    font-size: 5.13vw;
+    font-family: monospace;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 6.9vw;
+    margin-top: 5vw;
+  }
+  .secondPlane p {
+    font-size: 4.6vw;
+    width: 90vw;
+    text-align: center;
+    margin-top: 6vw;
+  }
+
+}
+
+

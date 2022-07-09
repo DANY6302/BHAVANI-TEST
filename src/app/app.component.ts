@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'BHAVANI';
+
+  menuVariable:boolean = false;
+  openMenu(){
+    this.menuVariable =! this.menuVariable;
+  }
 }
