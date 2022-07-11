@@ -332,7 +332,61 @@ header {
     text-align: center;
     margin-top: 6vw;
   }
-
 }
 
-
+.thirdPlane {
+  background-color: #FDFCF5;
+  width: 100vw;
+  height: 193.33vw;
+}
+.top {
+  margin: 14vw 7vw 0;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.top h1 {
+  font-size: 8vw;
+  text-transform: uppercase;
+  font-family: Ondo;
+  line-height: 9.6vw;
+  font-weight: 800;
+  margin: 0;
+}
+.top p {
+  font-size: 4.6vw;
+  line-height: 6vw;
+  font-weight: 400;
+  font-family: Nunito Sans;
+  margin-top: 4vw;
+  margin-bottom: 8.2vw;
+}
+.slider div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f1f0e8;
+  width: 76vw;
+  height: 70vw;
+  margin-top: 11vw;
+}
+.slider div img {
+  width: 25vw;
+}
+.slider div p {
+  font-size: 5.2vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  margin-top: 8vw;
+}
+.thirdPlane button {
+  margin-top: 9vw;
+  width: 58vw;
+  height: 13vw;
+  margin-left: 22.58vw;
+  border: 0;
+  background-color: #EEAA7F;
+  border-radius: 1vw;
+  font-size: 4.6vw;
+}
